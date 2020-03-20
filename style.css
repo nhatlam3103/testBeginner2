@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  max-width: 56.25em;
+  height: auto;
+  margin: 0 25%;
+}
+.name{background-color: red;color: white;}
+.list-menu{margin: 10px 0;}
+.list-menu li{list-style: none;}
+#content-introduce{margin: 20px 0;background-color: brown; color: white;}
+#content-introduce h1{text-align: center;font-weight: bold;margin: 10px 0;}
+#content-introduce p{font-size: 17px;}
+#content-info{margin: 20px 0;color: white;background-color: brown;}
+#content-info h1{text-align: center; font-weight: bold;}
+.content-info-list{
+    margin: 0 30px;
+}
+.table-price{ margin: 20px 0; padding: 0 12%;}
+.table-price h2 {margin-bottom: 20px;text-align: center;}
+.table-price td{
+    height: 40px;
+    width: 120px;
+}
+
+.table-price th{height: 40px;}
+#bg-green-tea{
+    background-image: url(./img/greentea.jpg);
+    background-size: 300px 200px;
+    text-align: right;
+}
+#bg-black-tea{
+    background-image: url(./img/blacktea.jpg);
+    background-size: 300px 200px;
+    text-align: center;
+}
+#bg-olong-tea{
+    background-image: url(./img/olongtea.jpg);
+    background-size: 300px 200px;
+}
+#bg-fruit-tea{
+    background-image: url(./img/fruit.jpg);
+    background-size: 220px 150px;
+    text-align: center;
+}
+#bg-milk-tea{
+    background-image: url(./img/milktea.png);
+    background-size: 200px 200px;
+    text-align: center;
+}
+#hot-only{text-align: center;}
+#cold{text-align: right;}
+#price{text-align: center;}
+
+/* css trang giới thiệu KFC */
+.container-fluid{
+    background-color: gainsboro;
+}
+.container-intro{
+    max-width: 56.25em;
+    height: auto;
+    margin: 0 25%;
+    background-color: white;
+}
+.container-intro h1{
+    text-align: center;
+    font-weight: bold;
+    color:brown;
+    font-size: 25px;
+}
+.container-intro a{
+    text-decoration: none;
+
+}
+.content-intro p{
+    margin: 10px 5px;
+  
+}
